@@ -1,0 +1,86 @@
+@import url("/src/assets/fonts/fontiranFA.css");
+@import url("/src/assets/fonts/fontiranEN.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+html {
+    direction: rtl;
+    scroll-behavior: smooth;
+}
+
+body {
+    /*direction: rtl;*/
+
+}
+
+body {
+    overflow-x: hidden;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+input:focus-visible {
+    outline: none;
+}
+
+* {
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    font-family: 'IRANSansFA', serif;
+
+    /*font-family: WeblogmaYekan, serif !important;*/
+}
+
+/**:lang(en) {*/
+/*    font-family: IRANSansEN, serif !important;*/
+/*}*/
+
+body {
+    -webkit-font-smoothing: antialiased;
+
+    /*font-size: 1rem !important;*/
+    -moz-osx-font-smoothing: grayscale;
+    letter-spacing: 0.5px;
+    padding: 0;
+    margin: 0;
+    /*font-size: var(--font-size);*/
+}
+
+.fatPercentageSwiper .swiper{
+    overflow: visible !important;
+    background-color: red;
+}
+
+
+.myinput{
+    @apply w-full bg-green-400 accent-[#BED972] cursor-pointer disabled:accent-[#BED972]
+}
+/*.myinput input[type='range']:disabled{*/
+/*    @apply w-full bg-green-400 accent-[#BED972] cursor-pointer disabled:accent-[#BED972];*/
+/*    background-color: red !important;*/
+/*    accent-color: red !important;*/
+/*}*/
+
+/*.swiper-container {*/
+/*    padding-bottom: 35px;*/
+/*}*/
+/*.swiper-container-horizontal > .swiper-pagination {*/
+/*    position: absolute;*/
+/*    bottom: 0;*/
+/*}*/
+
+/*.swiper-pagination {*/
+/*    transform: translate3d(0, 10px, 0);*/
+/*}*/
